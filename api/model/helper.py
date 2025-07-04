@@ -4,7 +4,7 @@ import numpy as np
 import io
 
 # Load Model
-model = YOLO('api/model/best.pt')
+model = YOLO('model/best.pt')
 
 # Labels
 CLASS = ['ps1', 'ps2', 'ps3', 'ps4', 'ps5']

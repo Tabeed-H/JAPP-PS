@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
-from api.model.helper import predictPS
+from model.helper import predictPS
 
 app = FastAPI()
 
