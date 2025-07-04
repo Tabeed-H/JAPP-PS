@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Tagline from "./components/Tagline";
 import UploadButton from "./components/UploadButton";
 import ChatBox from "./components/Chatbox";
+import EasterEggCat from "./components/EasterEggCat";
 
 import "./App.css";
 
@@ -85,6 +86,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-white bg-dot-pattern text-black p-4">
+      <EasterEggCat />
       <canvas ref={canvasRef} className="hidden" />
       <Header />
       <Tagline />
